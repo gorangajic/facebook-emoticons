@@ -11,7 +11,7 @@
     "content_scripts": [
     {
       "matches": ["https://www.facebook.com/*"],
-      "run_at" : "document_end",
+      "run_at" : "document_idle",
       "all_frames": true,
       "js": ["script.js"]
     }
