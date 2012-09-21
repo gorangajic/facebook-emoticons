@@ -1,7 +1,6 @@
 (function() {
   document.getElementById("pagelet_chat").addEventListener('click', function (e) { 
     var srcElement = e.srcElement; 
-    console.log(srcElement);
     if(srcElement.className == "emoteTogglerImg" && srcElement.dataset['appended'] === undefined) {
       srcElement.dataset['appended'] = '1';
       var parent = srcElement.parentElement;
